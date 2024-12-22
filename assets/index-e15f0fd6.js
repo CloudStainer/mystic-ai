@@ -12637,7 +12637,7 @@ const zx = [
                 className:
                   "flex xl:hidden justify-center py-4 gap-4 flex-col items-start",
                 children: _.jsx("a", {
-                  href: "https://stake.mineai.tech/",
+                  href: "https://mystic-ai-app.vercel.app/",
                   target: "_blank",
                   children: _.jsxs("button", {
                     className:
@@ -12668,7 +12668,7 @@ const zx = [
             className:
               "hidden xl:flex justify-center py-4 gap-6 flex-1 max-w-[400px]",
             children: _.jsx("a", {
-              href: "https://stake.mineai.tech/",
+              href: "https://mystic-ai-app.vercel.app/",
               target: "_blank",
               children: _.jsxs("button", {
                 className:
@@ -12706,16 +12706,16 @@ const zx = [
         children: _.jsx("img", {
           className: "max-w-[200px] object-contain",
           src: "/mineai.png",
-          alt: "MineAI",
+          alt: "MysticAI",
         }),
       }),
     }),
   qx = [
     {
       image: "/hero-card-1.png",
-      title: "Earn POW Coins with your PC, GPU & CPU",
+      title: "Earn MAI Coins with your PC, GPU & CPU",
       desc: "Leverage the power of your graphics card (GPU) and processor (CPU) to participate in the mining process, contributing to the decentralized network and earning rewards in return.",
-      tagLine: "No fuss, no hassle – just POW coins made easy.",
+      tagLine: "No fuss, no hassle – just MAI coins made easy.",
       button: { text: "Start Mining", url: "#" },
     },
     {
@@ -12778,7 +12778,7 @@ highly efficient and much more powerful for their mining task.
         _.jsx("span", {
           className:
             "mt-6 sm:mt-7 lg:mt-[px] text-base sm:text-xl lg:text-2xl text-gray-400 px-2",
-          children: "Connect your miners and earn POW Coins for everyshare!",
+          children: "Connect your miners and earn MAI Coins for everyshare!",
         }),
         _.jsxs("span", {
           className:
@@ -12791,10 +12791,10 @@ highly efficient and much more powerful for their mining task.
                 "w-5 sm:w-6 mr-1 sm:mr-2 -translate-y-0.5 cursor-pointer inline-block",
               onClick: () =>
                 navigator.clipboard.writeText(
-                  "0xF4AaA9428A881a5c054D0ED041F5749a336C9Ab5"
+                  "0x0000000000000000000000000000000000000000"
                 ),
             }),
-            "CA: 0xF4AaA9428A881a5c054D0ED041F5749a336C9Ab5",
+            "CA: 0x0000000000000000000000000000000000000000",
           ],
         }),
         _.jsx("div", {
@@ -12923,7 +12923,7 @@ highly efficient and much more powerful for their mining task.
                 children: [
                   _.jsx("h2", {
                     className: "heading-1 text-center xl:text-start",
-                    children: "MineAI Private Endpoint",
+                    children: "MysticAI Private Endpoint",
                   }),
                   _.jsx("span", {
                     className:
@@ -12939,7 +12939,7 @@ highly efficient and much more powerful for their mining task.
                         className:
                           "font-code text-sm sm:text-base lg:text-lg leading-[150%]",
                         children:
-                          "The MineAI Private Endpoint solution is designed for medium-sized and large mining farms that want to optimize their connection to MineAI and secure maximum performance and earnings.",
+                          "The MysticAI Private Endpoint solution is designed for medium-sized and large mining farms that want to optimize their connection to MysticAI and secure maximum performance and earnings.",
                       }),
                     }),
                   }),
@@ -13130,7 +13130,7 @@ highly efficient and much more powerful for their mining task.
               children: "Join our",
             }),
             _.jsxs("a", {
-              href: "https://t.me/MineAI_ERC20",
+              href: "https://t.me/",
               target: "_blank",
               className:
                 "flex items-center text-[28px] md:text-[32px] lg:text-[40px] leading-[150%] gap-2.5 z-10 w-max",
@@ -13145,29 +13145,7 @@ highly efficient and much more powerful for their mining task.
             }),
           ],
         }),
-        _.jsxs("div", {
-          className:
-            "p-8 border border-[#26242C] flex flex-col justify-center lg:items-end font-sora gap-2 md:gap-3 h-[360px] bg-black",
-          children: [
-            _.jsx("span", {
-              className: "text-[#999] leading-[150%]",
-              children: "More Info",
-            }),
-            _.jsxs("a", {
-              href: "#",
-              className:
-                "flex items-center text-[28px] md:text-[32px] lg:text-[40px] leading-[150%] gap-2.5 z-10 w-max",
-              children: [
-                "Discord ",
-                _.jsx("img", {
-                  src: "/rainbowArrow.svg",
-                  alt: "arrow",
-                  className: "w-9",
-                }),
-              ],
-            }),
-          ],
-        }),
+        
         _.jsxs("div", {
           className:
             "p-8 border border-[#26242C] flex flex-col justify-center font-sora gap-2 md:gap-3 h-[360px] bg-black",
@@ -13177,7 +13155,7 @@ highly efficient and much more powerful for their mining task.
               children: "Follow Our",
             }),
             _.jsxs("a", {
-              href: "https://twitter.com/MineAI_ERC20",
+              href: "https://twitter.com/",
               target: "_blank",
               className:
                 "flex items-center text-[28px] md:text-[32px] lg:text-[40px] leading-[150%] gap-2.5 z-10 w-max",
@@ -13192,29 +13170,7 @@ highly efficient and much more powerful for their mining task.
             }),
           ],
         }),
-        _.jsxs("div", {
-          className:
-            "p-8 border border-[#26242C] flex flex-col justify-center lg:items-end font-sora gap-2 md:gap-3 h-[300px] sm:h-[360px] bg-black",
-          children: [
-            _.jsx("span", {
-              className: "text-[#999] leading-[150%]",
-              children: "Drop Us a message",
-            }),
-            _.jsxs("a", {
-              href: "#",
-              className:
-                "flex items-center text-[28px] md:text-[32px] lg:text-[40px] leading-[150%] gap-2.5 z-10 w-max",
-              children: [
-                "Email ",
-                _.jsx("img", {
-                  src: "/rainbowArrow.svg",
-                  alt: "arrow",
-                  className: "w-9",
-                }),
-              ],
-            }),
-          ],
-        }),
+        
       ],
     })
   ),
@@ -13266,7 +13222,7 @@ highly efficient and much more powerful for their mining task.
                   className: "gradient-border-cut",
                   children: "Future",
                 }),
-                " Developments of MineAI",
+                " Developments of MysticAI",
               ],
             }),
             _.jsx("img", {
